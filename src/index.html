@@ -41,6 +41,7 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
+    <div id="particle-div"></div>
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
@@ -48,7 +49,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Josh</span>
           <br />
-          I am an aspiring Developer.
+          I am a web Developer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -104,6 +105,7 @@
 
     <!-- **** Projects Section **** -->
     <section id="projects">
+      <div id="particle-div">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
@@ -308,6 +310,7 @@
           <!-- /END Project -->
         </div>
       </div>
+    </div>
     </section>
     <!-- /END Projects Section -->
 
@@ -337,9 +340,6 @@
         </a>
         <div class="social-links">
           <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a rel="noreferrer" href="#!" target="_blank">
@@ -363,5 +363,7 @@
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
+    <canvas id="particles-can" class="background"></canvas>
+    <script src="particles.js"></script>
   </body>
 </html>
